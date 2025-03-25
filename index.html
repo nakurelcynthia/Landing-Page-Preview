@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
     crossorigin="anonymous" 
@@ -10,10 +11,10 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <div>
+    <header class="header">
+        <div class="img">
             <img width="48" height="48" src="https://img.icons8.com/badges/48/marker-d.png" alt="marker-d"/>
-            <p>dit.io</p>
+            <span>dit.io</span>
         </div>
         <div class="navBar">
             <nav>Feature</nav>
@@ -22,58 +23,103 @@
             <nav>Pricing</nav>
             <nav>Feedback</nav>
         </div>
+        <div class="registration">
         <div>
             <button type="button" id="login">Log In</button>
+        </div>
+        <div>
             <button type="button" id="signup">Sign Up</button>
         </div>
+        </div>
     </header>
-    <div>
+    <div class="improvecharge">
         <div>
-            <span>Improve the way <a href="" >you charge,</a>with one click</span><br>
-            <span>Deski deliverd blazing fast performance, striking word solution</span>
-            <button type="button" id="appstore"><i class="fa-brands fa-apple"></i>App Store</button>
-            <button type="button" id="Playstore"><i class="fa-brands fa-google-play"></i>Play Store</button><br>
-            <span>Diffferent Platform?<a href="">Contact us</a></span>
+            <p>Improve the way <a href="" >you charge,</a>with one click</p><br>
+            <span>Deski deliverd blazing fast performance, striking word solution</span><br>
+            <div class="storebuttons">
+            <div>
+                <button type="button" id="appstore"><i class="fa-brands fa-apple"></i>App Store</button><br>
+            </div>
+            <div>
+                <button type="button" id="playstore"><i class="fa-brands fa-google-play"></i>Play Store</button><br>
+            </div>
+            </div>
+            <span>Diffferent Platform?<a href=""><b>Contact us</b></a></span>
         </div>
         <div class="rogerprofile">
-            <img src="" alt="Roger's profile">
-        </div>
-    </div>
-    <div>
-        <span>Over 32k+ software business growing with dit.io</span>
-    </div>
-    <div class="icons">
-        <span><i class="fa-brands fa-microsoft"></i>Microsoft</span>
-        <span><i class="fa-brands fa-trello"></i>Trello</span>
-        <span>Google</span>
-        <img src="" alt="dropbox">
-        <img src="" alt="slack">
-    </div>
-    <div>
-        <span>The <a href="" >Product</a> we work with</span>
-        <div>
-            <i class="fa-solid fa-star"></i>
-            <p>Easy Interface</p>
-            <span>diti.io deliverd blazing fast perform striking</span>
-        </div>
-        <div>
+            <div class="headerform">
+                <div>
+                    <img src="" alt="">
+                </div>
+                <div>
+                    <span>You recevied finr €600 and needs to be paid</span>
+                </div>
+            </div>
+            <div>
+                <span>Technical assistant</span>
+                <span>Occulus</span>
+            </div>
+            <div>
+                <span>22</span><br>
+                <span>Worked Days</span><br>
+            </div>
 
-            <p>Secured Transfers</p>
-            <span>diti.io deliverd blazing fast perform striking</span>
-        </div>
-        <div>
-            <i class="fa-solid fa-feather"></i>
-            <p>24/7 Support</p>
-            <span>diti.io deliverd blazing fast perform striking</span>
+            <hr>
+
+            <div>
+                <p>€1,500</p>
+                <span>Monthly salary</span><br><br>
+                <p>€750</p>
+                <span>salary available</span><br><br>
+            </div>
         </div>
     </div>
-    <div>
+    <div class="companieslogo">
         <div>
-            <p>Okay, Let's see diti.io in numbers</p>
-            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna sit aliquam a rhoncus. Aliquam nec platea</span>
+            <span id="softwarebusiness">Over <b>32k+</b> software business growing with dit.io</span>
+        </div>
+    <div class="icons">
+        <div>
+            <span><img width="80" height="80" src="https://img.icons8.com/color/48/microsoft.png" alt="microsoft"/>Microsoft</span>
         </div>
         <div>
-            <img>
+            <span><img width="60" height="60" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/external-trello-a-web-based-list-making-application-for-multi-platform-logo-shadow-tal-revivo.png" alt="external-trello-a-web-based-list-making-application-for-multi-platform-logo-shadow-tal-revivo"/>Trello</span>
+        </div>
+        <div>
+            <span>Google</span>
+        </div>
+        <div>
+            <span><img width="80" height="80" src="https://img.icons8.com/color/48/dropbox.png" alt="dropbox"/>Dropbox</span>
+        </div>
+        <div>
+            <span><img width="60" height="60" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/external-slack-replace-email-text-messaging-and-instant-messaging-for-your-team-logo-shadow-tal-revivo.png" alt="external-slack-replace-email-text-messaging-and-instant-messaging-for-your-team-logo-shadow-tal-revivo"/>Slack</span>
+        </div>
+        </div>
+    </div>
+    <div class="productsContainer">
+        <p>The <a href="" >Product</a> we work with</p>
+        <div class="products">
+        <div class="interface">
+            <i class="fa-solid fa-star" id="star"></i><br>
+            <span>Easy Interface</span><br>
+            <span>diti.io deliverd blazing fast perform striking</span>
+        </div>
+        <div class="transfers"> 
+            <img width="24" height="24" src="https://img.icons8.com/forma-thin/24/vertical-settings-mixer.png" alt="vertical-settings-mixer" id="equalizer"/><br>
+            <span>Secured Transfers</span><br>
+            <span>diti.io deliverd blazing fast perform striking</span>
+        </div>
+        <div class="support">
+            <i class="fa-solid fa-feather" id="feather"></i><br>
+            <span>24/7 Support</span><br>
+            <span>diti.io deliverd blazing fast perform striking</span>
+        </div>
+        </div>
+    </div>
+    <div class="ditinumbers">
+        <div>
+            <p>Okay, Let's see <a href="" >diti.io in numbers</a></p>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna sit aliquam a rhoncus. Aliquam nec platea</span>
         </div>
     </div>
     <div>
@@ -125,7 +171,7 @@
     <footer>
         <div class="socialicons">
             <div>
-                <img src="" alt="d icon">
+                <img width="48" height="48" src="https://img.icons8.com/badges/48/marker-d.png" alt="marker-d"/>
                 <p>dit.io</p>
             </div>
             <div>
@@ -136,48 +182,49 @@
         </div>
         <div>
             <p>Our Products</p>
-            <span>Features</span>
-            <span>Smart Saving</span>
-            <span>Investing</span>
-            <span>Personal Insurance</span>
+            <span>Features</span><br>
+            <span>Smart Saving</span><br>
+            <span>Investing</span><br>
+            <span>Personal Insurance</span><br>
             <span>Apps & Downloads</span>
         </div>
         <div>
             <p>Top Features</p>
-            <span>Instant Access</span>
-            <span>Finance Education</span>
-            <span>Smart Savings</span>
-            <span>Monthly Budgeting</span>
+            <span>Instant Access</span><br>
+            <span>Finance Education</span><br>
+            <span>Smart Savings</span><br>
+            <span>Monthly Budgeting</span><br>
             <span>Apps & Intergrations</span>
         </div>
         <div>
             <p>Company</p>
-            <span>About Us </span>
-            <span>Contact</span>
-            <span>Career</span>
-            <span>Terms of Service</span>
+            <span>About Us </span><br>
+            <span>Contact</span><br>
+            <span>Career</span><br>
+            <span>Terms of Service</span><br>
             <span>Privacy Policy</span>
         </div>
         <div>
             <p>Resources</p>
-            <span>Blog</span>
-            <span>Help & Support</span>
-            <span>Customer Stories</span>
-            <span>Legal</span>
+            <span>Blog</span><br>
+            <span>Help & Support</span><br>
+            <span>Customer Stories</span><br>
+            <span>Legal</span><br>
             <span>FAQ</span>
         </div>
     </footer>
-    <footer>
+    <footer class="copyright">
         <div>
-            <img width="30" height="30" src="https://img.icons8.com/ios/50/copyright.png" alt="copyright"/>
+            <img width="48" height="48" src="https://img.icons8.com/fluency-systems-filled/48/circled-d.png" alt="circled-d"/>
             <span>Copyright @diti.io 2022. All Right Reserved</span>
         </div>
-        <div>
+        <div class="conditions">
             <span>Terms and Conditions</span>
         </div>
-        <div>
+        <div class="privacypolicy">
             <span>Privacy and Policy</span>
         </div>
     </footer>
+    </div>
 </body>
 </html>

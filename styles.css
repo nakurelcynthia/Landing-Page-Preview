@@ -1,0 +1,186 @@
+.containers{
+    margin-left: 2000px;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+}
+.navBar{
+    display: flex;
+    gap: 50px;
+}
+.header{
+    display: flex;
+    gap: 250px;
+    margin-top:50px;
+    margin-left: 200px;
+    font-size: x-large;
+}
+.img span{
+    font-weight: bolder;
+}
+.header .img{
+    margin-top: -30px;
+}
+#login{
+    border: 1px solid black;
+    font-size: medium;
+    font-weight: bold;
+    padding: 2%;
+    width: 100px;
+    height: 50px;
+}
+#signup{
+    background-color: pink;
+    border-radius: 20%;
+    padding: 2%;
+    font-size: medium;
+    font-weight: bold;
+    width: 100px;
+    height: 50px;
+    color: white;
+}
+.registration{
+    display: flex;
+    gap: 20px;
+}
+.improvecharge{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 250px;
+    gap: 200px;
+    width: 35%;
+    justify-content: space-between;
+    background-color: blueviolet;
+}
+.improvecharge p{
+    font-weight: bold;
+    font-size: 60px;
+}
+.improvecharge span{
+    font-weight: lighter;
+    font-size: x-large;
+}
+.storebuttons{
+    display: flex;
+    gap: 40px;
+    margin: 20px;
+}
+#appstore{
+    background-color: rgb(67, 72, 138);
+    border-radius: 20px;
+    padding: 2%;
+    font-size: x-large;
+    font-weight: bold;
+    width: 200px;
+    height: 60px;
+    color: white; 
+
+}
+#playstore{
+    background-color: white;
+    border-radius: 20px;
+    padding: 2%;
+    font-size: x-large;
+    font-weight: bold;
+    width:200px;
+    height: 60px;
+    color: black;
+
+}
+.rogerprofile{
+    border: 1px solid black;
+    padding: 30px 30px 30px 50px;
+    width: 20%;
+    background-color: blue;
+    font-size: 20px;
+}
+.companieslogo{
+    margin-left: 200px;
+    gap: 2000px;
+    margin-top: 200px;
+
+}
+#softwarebusiness{
+    margin-left: 400px;
+    font-size: xx-large;
+}
+.companieslogo span{
+    font-weight: normal;
+    font-size: x-large;
+}
+ 
+.icons{
+    display: flex;
+    gap: 150px;
+    margin-top: 50px;
+}
+.productsContainer{
+    background-color: rgb(222, 247, 238);
+}
+.productsContainer p{
+    font-weight: medium;
+    font-size: 50px;
+    margin-left: 600px;
+}
+.products{
+    display: flex;
+    gap: 50px;
+    margin-left: 200px;
+}
+.interface{
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+}
+.transfers{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+}
+.support{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+}
+#feather{
+    margin-left: 150px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+#star{
+    margin-left: 150px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#equalizer{
+    margin-left: 150px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.ditinumbers{
+    display: flex;
+    border: 1px solid black;
+}
+footer{
+    background-color: aquamarine;
+    display: flex;
+    gap: 200px;
+    font-size: larger;
+}
+.copyright{
+    background-color: blue;
+    gap: 500px;
+    padding-left: 200px;
+}
+.privacypolicy{
+    border-left: 1px solid grey;
+    padding-left: 50px;
+}
+.conditions{
+    margin-right: -450px;
+}
+a{
+    color: red;
+}
