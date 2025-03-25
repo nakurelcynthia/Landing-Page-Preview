@@ -49,8 +49,6 @@
     margin-left: 250px;
     gap: 200px;
     width: 35%;
-    justify-content: space-between;
-    background-color: blueviolet;
 }
 .improvecharge p{
     font-weight: bold;
@@ -87,13 +85,7 @@
     color: black;
 
 }
-.rogerprofile{
-    border: 1px solid black;
-    padding: 30px 30px 30px 50px;
-    width: 20%;
-    background-color: blue;
-    font-size: 20px;
-}
+
 .companieslogo{
     margin-left: 200px;
     gap: 2000px;
@@ -164,15 +156,17 @@
     border: 1px solid black;
 }
 footer{
-    background-color: aquamarine;
+    background-color: rgb(34, 34, 97);
     display: flex;
     gap: 200px;
     font-size: larger;
+    color: white;
 }
 .copyright{
-    background-color: blue;
+    background-color: rgb(8, 8, 8);
     gap: 500px;
     padding-left: 200px;
+    color: white;
 }
 .privacypolicy{
     border-left: 1px solid grey;
@@ -183,4 +177,67 @@ footer{
 }
 a{
     color: red;
+}
+.designportfolio{
+    display: flex;
+    gap: 100px;
+    margin-left: 400px;
+}
+.mobileapp{
+    padding-top: 200px;
+}
+.mobileapp h6{
+    font-size: 40px;
+    font-weight: normal;
+}
+.mobileapp p{
+    font-size: 30px;
+    font-weight: 700;
+}
+.comments{
+    display: flex;
+    gap: 100px;
+    margin-left: 200px;
+    font-size: 20px;
+
+}
+.clientswords{
+    margin-left: 600px;
+    font-size: 40px;
+}
+.helpcustomers{
+    margin-left: 600px;
+    font-size: 40px;
+    width: 25%;
+}
+.numbers{
+    margin-left: 200px;
+    width: 30%;
+    font-size: x-large;
+}
+.numbers p{
+    font-size:50px;
+    width: 100%;
+}
+#google{
+    width: 120px;
+    height: 50px;
+    padding-top: 30px;
+}
+.edwin{
+    padding: 3%;
+    border: 1px solid black;
+    width: 28%;
+}
+.edwin img{
+    border-radius: 50%;
+}
+.jecson{
+    padding: 3%;
+    border: 1px solid black;
+    width: 28%;
+}
+.jecson img{
+    width: 180px;
+    height: 180px;
 }
