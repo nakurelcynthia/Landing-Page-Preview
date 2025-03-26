@@ -1,8 +1,9 @@
 @media(max-width:750px){
     .navBar{
         flex-direction: column;
-        font-size: 10vw;
+        font-size: 5vw;
         overflow-x: hidden;
+        margin-top: -200px;
     }
     .header{
         flex-direction: column;
@@ -11,6 +12,7 @@
     body{
         flex-direction: column;
         overflow-x: hidden;
+        margin-left: -100px;
     }
     .improvecharge{
         flex-direction: column;
@@ -22,8 +24,8 @@
     }
     img{
         flex-direction: column;
-        width: 200px;
-        height: 100px;
+        /* width: 200px;
+        height: 100px; */
     }
 }
 
@@ -45,21 +47,22 @@
     margin-top: -30px;
 }
 #login{
-    border: 1px solid black;
+    border: none;
     font-size: medium;
     font-weight: bold;
     padding: 2%;
-    width: 100px;
-    height: 50px;
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
 }
 #signup{
     background-color: pink;
-    border-radius: 20%;
+    border-radius: 20px;
     padding: 2%;
     font-size: medium;
     font-weight: bold;
-    width: 100px;
-    height: 50px;
+    width: 200px;
+    height: 60px;
     color: white;
 }
 .registration{
